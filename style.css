@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: block;
+}
+
+/* ----------------------------------navbar--------------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #c80000;
+    padding: 10px 150px;
+
+}
+
+/* .navbar >*{
+    /* flex:1 1 1; *
+    min-height: 0;
+    overflow: hidden;
+
+} */
+/* --------------------------------------icon-------------- */
+.icon {
+
+    width: 150px;
+    height: 68px;
+    margin-top: 10px;
+}
+
+.iconimg {
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.uppernav a {
+    padding-left: 25px;
+}
+
+/* ------------------------------------------subnav--------------- */
+.subnav {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1px;
+    justify-content: space-between;
+}
+
+.uppernav {
+    position: relative;
+    left: 24rem;
+    display: flex;
+    padding-top: 5px;
+    width: 250px;
+    justify-content: space-between;
+    justify-items: end;
+}
+
+.uppernav-img {
+    width: 100%;
+    position: relative;
+    right: 20px;
+}
+
+.uppernav_ {
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.lowwernav {
+    width: 40rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lowwernav a {
+    margin-left: 10px;
+}
+
+.content {
+    padding-top: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+/* ---------------------------container body------------------------ */
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.banner-new {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    overflow: hidden;
+}
+
+.img-header {
+    width: 100px;
+    height: 350px;
+}
+
+.form {
+    display: flex;
+    color: white;
+    float: left;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tracking-label {
+    display: block;
+    font-size: xx-large;
+}
+
+.tracking-input {
+    width: 30rem;
+    height: 45px;
+    font-size: large;
+}
+
+.tracking-submit {
+    height: 45px;
+    background-color: #c80000;
+    color: white;
+    padding: 0px 50px;
+}
+
+.tracking-submit .tracking-input {
+    display: flex;
+    flex-shrink: px;
+}
+
+input[placeholder="Enter your tracking number"] {
+    padding-left: 15px;
+}
+
+
+/* -----------------------------container box------------------ */
+.container-box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border: 2px solid #d9d9d9;
+    width: 12rem;
+    height: 8rem;
+    bottom: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.box img {
+    position: relative;
+    width: 33px;
+    height: 50px;
+    top: 10px;
+}
+
+.container-box p {
+    padding: 20px;
+}
+
+/* ------------------------------productrs---------------------- */
+.Products{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 120px;
+    align-items: center;
+}
+.Products h1{
+    font-size: 45px;
+} 
+.Products hr{
+    width: 69px;
+    height: 9px;
+    background-color: #ed1c24;
+    border-radius: 5px;
+    margin: 30px 170px;
+}
+
+.Products a{
+    text-decoration: none;
+    color: black;
+
+}
+/* ----------------------------------routes---------------------------------- */
+.routes{
+    margin: 30px auto;
+    font-size: 20px;
+}
+
+
+
+/* --------------------------------------trucks-------------------------------- */
+.trucks{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 50px;
+    /* justify-content: center ; */
+}
+
+
+.trucks img{
+    width: 60px;
+}
+
+.grid-item{
+    /* text-align: center; */
+    font-size: 18px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+/* ---------------------------------tcsCenter----------------- */
+.tcsCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f9fc;
+}
+
+.tcsCenter h1{
+    margin: 40px 1px;
+    font-size: 50px;
+    text-shadow: black;
+}
+
+.tcsCenter p{
+    margin: 20px 209px;
+    font-size: larger;
+    justify-self: baseline;
+}
+
+.tcsCenter button{
+    width: 15rem;
+    height: 3rem;
+    background-color: #c80000;
+    color: white;
+    font-size:15px;
+    margin:40px 0px;
+    border: none;
+}
+
+/* ------------------------container TCS------------------ */
+.container-Tcs{
+    width: 100%;
+    height: 23rem;
+}
+
+.container-Tcs img{
+    width: 100%;
+    height: 100%;
+}
+
+/* -----------------------------Ecom solitions------------------- */
+
+.ecom-solutions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    width: 69px;
+    height: 9px;
+    background-color: #ed1c24;
+    border-radius: 5px;
+    margin: 30px 0px;
+}
+
+.ecom-solutions p{
+    text-align: justify;
+    margin: 0 50px;
+    
+}
+
+/* ----------------------------------img glance------------------ */
+
+
+.img-glance{
+    display: flex;
+    flex-direction: column;
+    background-color: #efefef;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-glance h1{
+    margin-top: 60px;
+    font-size: 40px;
+}
+.img-glance img{
+    width: 70%;
+    margin: auto;
+    opacity: 0.8;
+}
+
+
+
+@media screen and (max-wdth:1024px) {}
+
+@media screen and (max-wdth:768px) {}
+
+@media screen and (max-wdth:425px) {}
+
+@media screen and (max-wdth:375px) {}
+
+@media screen and (max-wdth:320px) {}
