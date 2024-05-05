@@ -13,16 +13,9 @@
     display: flex;
     justify-content: space-between;
     background-color: #c80000;
-    padding: 10px 150px;
-
+    padding: 8px 150px;
 }
 
-/* .navbar >*{
-    /* flex:1 1 1; *
-    min-height: 0;
-    overflow: hidden;
-
-} */
 /* --------------------------------------icon-------------- */
 .icon {
 
@@ -53,10 +46,10 @@
 
 .uppernav {
     position: relative;
-    left: 24rem;
+    left: 28rem;
     display: flex;
-    padding-top: 5px;
-    width: 250px;
+    padding-top: 9px;
+    width: 17rem;
     justify-content: space-between;
     justify-items: end;
 }
@@ -74,10 +67,12 @@
 }
 
 .lowwernav {
-    width: 40rem;
+    width: 49rem;
     position: relative;
     display: flex;
     justify-content: space-between;
+    column-gap: 10px;
+    margin-bottom: 10px;
 }
 
 .lowwernav a {
@@ -88,8 +83,14 @@
     padding-top: 5px;
     text-decoration: none;
     color: white;
+    
 }
 
+.lowwernav button{
+    background-color:#ed1c24 !important;
+    width: 100px;
+    border: none;
+}
 /* ---------------------------container body------------------------ */
 
 .container {
@@ -193,6 +194,7 @@ input[placeholder="Enter your tracking number"] {
 
 .Products h1 {
     font-size: 45px;
+    color: #373737;
 }
 
 .Products hr {
@@ -259,6 +261,7 @@ input[placeholder="Enter your tracking number"] {
     margin: 40px 1px;
     font-size: 50px;
     text-shadow: black;
+    color: #373737;
 }
 
 .tcsCenter p {
@@ -301,6 +304,7 @@ input[placeholder="Enter your tracking number"] {
 .ecom-solutions h1{
     margin-top: 6px;
     font-weight: 700;
+    color: #373737;
     font-size: 40px;
 }
 
@@ -375,6 +379,7 @@ hr {
 .img-glance h1 {
     margin-top: 60px;
     font-size: 40px;
+    color: #373737;
 }
 
 .img-glance img {
