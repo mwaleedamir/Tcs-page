@@ -183,16 +183,19 @@ input[placeholder="Enter your tracking number"] {
 }
 
 /* ------------------------------productrs---------------------- */
-.Products{
+.Products {
     display: flex;
     flex-direction: column;
     margin: 30px 120px;
     align-items: center;
+    padding-bottom: 5%;
 }
-.Products h1{
+
+.Products h1 {
     font-size: 45px;
-} 
-.Products hr{
+}
+
+.Products hr {
     width: 69px;
     height: 9px;
     background-color: #ed1c24;
@@ -200,13 +203,14 @@ input[placeholder="Enter your tracking number"] {
     margin: 30px 170px;
 }
 
-.Products a{
+.Products a {
     text-decoration: none;
     color: black;
 
 }
+
 /* ----------------------------------routes---------------------------------- */
-.routes{
+.routes {
     margin: 30px auto;
     font-size: 20px;
 }
@@ -214,29 +218,36 @@ input[placeholder="Enter your tracking number"] {
 
 
 /* --------------------------------------trucks-------------------------------- */
-.trucks{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    gap: 50px;
-    /* justify-content: center ; */
+.trucks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    gap: 40px 125px;
+    text-align: center;
+    margin: 14px 27px;
+    padding: 26px 35px;
 }
 
-
-.trucks img{
-    width: 60px;
+.Express{
+    color: #ed1c24 !important;
+}
+.trucks img {
+    width: 50px;
 }
 
-.grid-item{
-    /* text-align: center; */
+.grid-item {
     font-size: 18px;
     padding-top: 10px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
+    text-align: center;
 }
+
 /* ---------------------------------tcsCenter----------------- */
-.tcsCenter{
+.tcsCenter {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -244,65 +255,113 @@ input[placeholder="Enter your tracking number"] {
     background-color: #f6f9fc;
 }
 
-.tcsCenter h1{
+.tcsCenter h1 {
     margin: 40px 1px;
     font-size: 50px;
     text-shadow: black;
 }
 
-.tcsCenter p{
+.tcsCenter p {
     margin: 20px 209px;
     font-size: larger;
     justify-self: baseline;
+    text-align: center;
 }
 
-.tcsCenter button{
+.tcsCenter button {
     width: 15rem;
     height: 3rem;
     background-color: #c80000;
     color: white;
-    font-size:15px;
-    margin:40px 0px;
+    font-size: 15px;
+    margin: 40px 0px;
     border: none;
 }
 
 /* ------------------------container TCS------------------ */
-.container-Tcs{
+.container-Tcs {
     width: 100%;
     height: 23rem;
 }
 
-.container-Tcs img{
+.container-Tcs img {
     width: 100%;
     height: 100%;
 }
 
 /* -----------------------------Ecom solitions------------------- */
 
-.ecom-solutions{
+.ecom-solutions {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-hr{
+
+.ecom-solutions h1{
+    margin-top: 6px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+hr {
     width: 69px;
     height: 9px;
     background-color: #ed1c24;
     border-radius: 5px;
-    margin: 30px 0px;
+    margin: 20px 0px;
 }
 
 .ecom-solutions p{
-    text-align: justify;
-    margin: 0 50px;
+    text-align: center;
+    /* margin: 20px 20px; */
     
 }
+
+.ecom-p {
+    text-align: center;
+    margin: 20px 0;
+    width: 45rem;
+}
+
+.ecom-body{
+    display: flex;
+    text-align: center;
+    margin-bottom: 75px;
+    column-gap: 100px;
+}
+
+.ecom-body img{
+    width: 150px;   
+}
+
+
+.ecom1 .ecom2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.ecom-body p{
+    width: 25rem;
+    margin: 13px 5px;
+}
+
+.ecomButton{
+    background-color:#ed1c24;
+    --tw-text-opacity: 1;
+    border-radius: .125rem;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+    font-size: .875rem;
+    height: 2.5rem;
+    line-height: 1.25rem;
+    width: 12rem;
+    border: none;
+} 
 
 /* ----------------------------------img glance------------------ */
 
 
-.img-glance{
+.img-glance {
     display: flex;
     flex-direction: column;
     background-color: #efefef;
@@ -313,11 +372,12 @@ hr{
     align-items: center;
 }
 
-.img-glance h1{
+.img-glance h1 {
     margin-top: 60px;
     font-size: 40px;
 }
-.img-glance img{
+
+.img-glance img {
     width: 70%;
     margin: auto;
     opacity: 0.8;
