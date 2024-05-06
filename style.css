@@ -89,7 +89,9 @@
 .lowwernav button{
     background-color:#ed1c24 !important;
     width: 100px;
+    height: 24px;
     border: none;
+    padding-bottom: 23px;
 }
 /* ---------------------------container body------------------------ */
 
@@ -116,10 +118,7 @@
 .form {
     display: flex;
     color: white;
-    float: left;
     width: 100%;
-    height: 100%;
-    align-items: center;
     justify-content: center;
 }
 
@@ -130,21 +129,23 @@
 }
 
 .tracking-input {
-    width: 30rem;
-    height: 45px;
+    width: 28rem;
+    height: 46px;
     font-size: large;
+    opacity: 0.7;
 }
 
 .tracking-submit {
     height: 45px;
-    background-color: #c80000;
+    background-color:#ed1c24;
     color: white;
-    padding: 0px 50px;
+    padding: 0px 40px;
 }
 
 .tracking-submit .tracking-input {
     display: flex;
-    flex-shrink: px;
+    flex-shrink: 10px;
+    flex-direction: row;
 }
 
 input[placeholder="Enter your tracking number"] {
@@ -386,7 +387,201 @@ hr {
     width: 70%;
     margin: auto;
     opacity: 0.8;
+    padding-bottom: 60px;
 }
+
+/* ---------------------------------------tcs scr----------------------*/
+
+.TCS-SER{
+    display: flex;
+    margin: 7rem 12rem;
+    column-gap: 5rem;
+}
+
+.tcs-img{
+    background-color: #ed1c24;
+    border: 2px solid #ed1c24 ;
+    height:17rem;
+}
+.tcs-left{
+    display: flex;
+    flex-direction: column;
+    width: 63rem;
+}
+
+.tcs-left h1{
+    font-size: 35px;
+    color: #373737;
+}
+
+.tcs-left p{
+    font-size: large;
+    padding-top: 3rem;
+}
+
+.all{
+    position: relative;
+    top: 13rem;
+}
+
+.tcs-right{
+   position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+    bottom: 12rem;
+    padding: 36px 53px;
+}
+
+.images{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    column-gap: 8px;
+    bottom: 44px;
+    left: 23px;
+}
+
+
+.images .img2 {
+    position: relative;
+    bottom: 70px;
+    width: 12rem;
+    height: 14rem;
+}
+.images .img1{
+    position: relative;
+    bottom: 36px;
+    width: 9rem;
+    height: 9rem;
+}
+.images .img3{
+    position: relative;
+    bottom: 36px;
+    width: 8rem;
+    height: 8rem;
+}
+
+/* ---------------------------customer support------------ */
+
+.customer-service{
+    
+    display: flex;
+    padding: 14rem 0rem;
+}
+
+.customer-images{
+    position: relative;
+    display: flex;
+    margin: 40px 40px;
+    width: 50rem;
+    height: 16rem;
+    column-gap: 20px;
+    left: 100px;
+}
+
+.support2{
+    position: relative;
+    bottom: 10rem;
+}
+.support3{
+    position: relative;
+    bottom: 5rem;
+}
+.support4{
+    position: relative;
+    top: 12rem;
+    right: 15.5rem;
+}
+.support5{
+    position: relative;
+    top: 7rem;
+    right: 48rem;
+
+}
+
+.customer-support{
+    position: relative;
+    right: 14rem;
+    top: 7rem;
+}
+
+.customer-support h1{
+    font-size: 40px;
+    color: #373737;
+}
+
+.customer-support p{
+    font-size: large;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+/* -------------------------------------------news------------------- */
+.news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5rem 11rem;
+    align-items: center;
+}
+
+.news h1{
+    font-size: 42px;
+    color: #373737;
+}
+.news-images{
+    display: flex;
+    column-gap: 10px;
+
+}
+
+.news-images img{
+    width: 20rem;
+    height: 15rem;
+}
+
+/* ---------------------------------------------working----------------- */
+
+.working{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#efefef;
+    opacity: .9;
+    padding: 5rem 6rem;
+}
+
+.working-img{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 15px;
+}
+
+.working h1{
+    font-size: 42px;
+    color: #373737;
+}
+
+.working-img img{
+    width: 25rem;
+    height: 15rem;
+}
+
+.working-img h3{
+    position: relative;
+    font-size: xx-large;
+    color: white;
+    bottom: 4rem;
+    left: 2rem;
+    /* box-shadow: #373737; */
+}
+
+
+
 
 
 
