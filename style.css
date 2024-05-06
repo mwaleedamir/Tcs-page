@@ -581,16 +581,64 @@ hr {
 }
 
 
+@media screen and (max-width:1024px) {
+    
 
 
 
 
-@media screen and (max-wdth:1024px) {}
 
-@media screen and (max-wdth:768px) {}
 
-@media screen and (max-wdth:425px) {}
 
-@media screen and (max-wdth:375px) {}
 
-@media screen and (max-wdth:320px) {}
+
+
+
+
+
+
+
+    /* -------------------------working------------- */
+    .working-img{
+        display: flex;
+        column-gap: 10px;
+        margin-top: 15px;
+
+    }
+    .working{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color:#efefef;
+        opacity: .9;
+        padding: 5rem 3rem;
+
+    }
+
+    .working h1{
+        font-size: 43px;
+        color: #373737;
+    }
+
+    .working-img img{
+        width: 20rem;
+        height: 13rem;
+        overflow: hidden;
+    }
+    .working-img h3{
+        position: relative;
+        font-size: xx-large;
+        color: white;
+        bottom: 5rem;
+        left: 2rem;
+    }
+}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:425px) {}
+
+@media screen and (max-width:375px) {}
+
+@media screen and (max-width:320px) {}
