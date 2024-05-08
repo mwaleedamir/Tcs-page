@@ -14,6 +14,9 @@
     justify-content: space-between;
     background-color: #c80000;
     padding: 13px 60px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
 }
 
 /* --------------------------------------icon-------------- */
@@ -72,6 +75,7 @@
     justify-content: space-between;
     column-gap: 10px;
     margin-bottom: 10px;
+    
 }
 
 .lowwernav a {
@@ -503,7 +507,7 @@ hr {
 .support4 {
     position: relative;
     top: 12rem;
-    right: 15.5rem;
+    right: 16rem;
 }
 
 .support5 {
@@ -515,8 +519,8 @@ hr {
 
 .customer-support {
     position: relative;
-    right: 14rem;
-    top: 7rem;
+    right: 15rem
+    /* top: 7rem; */
 }
 
 .customer-support h1 {
@@ -1085,9 +1089,6 @@ hr {
 
     /* -----------------------------Ecom solitions------------------- */
 
-    
-
-
     hr {
         width: 69px;
         height: 9px;
@@ -1154,8 +1155,6 @@ hr {
         display: flex;
         margin: 15px 0px;
         width: 37rem;
-        /* height: 12rem; */
-        /* column-gap: 20px;*/
     }
 
     .customer-images img{
@@ -1179,9 +1178,9 @@ hr {
 
     .support4 {
         position: relative;
-        top: 103px;
-        right: 219px;
-    }
+        top: 12rem;
+        right: 16rem; 
+    
     }
 
     .support5 {
