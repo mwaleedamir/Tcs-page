@@ -129,6 +129,10 @@
     justify-content: center;
 }
 
+.outer-input{
+    display:flex;
+    
+}
 
 .tracking-label {
     display: block;
@@ -137,9 +141,10 @@
 
 .tracking-input {
     width: 30rem;
-    height: 3rem;
+    height: 45px;
     font-size: large;
     opacity: 0.7;
+    border-radius: none;
 }
 
 .tracking-submit {
@@ -147,6 +152,7 @@
     background-color: #ed1c24;
     color: white;
     padding: 0px 40px;
+    border: none;
 }
 
 .tracking-submit .tracking-input {
@@ -447,6 +453,7 @@ hr {
 .images {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: 100%;
     column-gap: 8px;
@@ -488,7 +495,7 @@ hr {
     position: relative;
     display: flex;
     margin: 40px 40px;
-    width: 50rem;
+    width: 70%;
     height: 16rem;
     column-gap: 20px;
     left: 100px;
@@ -519,6 +526,7 @@ hr {
 
 .customer-support {
     position: relative;
+    width: 30%;
     right: 15rem
     /* top: 7rem; */
 }
@@ -593,7 +601,7 @@ hr {
     color: white;
     bottom: 4rem;
     left: 2rem;
-    /* box-shadow: #373737; */
+    width: 100%;
 }
 
 
@@ -694,6 +702,7 @@ hr {
         font-size: 18px;
         padding-top: 10px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         flex-direction: column;
         align-items: center;
@@ -703,6 +712,7 @@ hr {
 
     .routes {
         display: flex;
+        flex-wrap: wrap;
         column-gap: 10px;
         margin: 16px auto;
         font-size: 17px;
@@ -782,6 +792,8 @@ hr {
         left: 10rem;
         width: 6rem;
         display: flex;
+        flex-wrap: wrap;
+
         padding: 8rem 0rem;
     }
 
@@ -827,11 +839,13 @@ hr {
     .customer-support h1 {
         font-size: 32px;
         color: #373737;
+        width: 100%;
     }
 
     /* -------------------------news------------------- */
     .news {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -857,6 +871,7 @@ hr {
     /* -------------------------working------------- */
     .working-img {
         display: flex;
+        flex-wrap: wrap;
         column-gap: 3px;
         margin-top: 15px;
 
@@ -864,6 +879,7 @@ hr {
 
     .working {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -898,6 +914,7 @@ hr {
 
     .navbar {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         background-color: #c80000;
         /* padding: 8px 50px; */
@@ -940,6 +957,7 @@ hr {
         bottom: 41px;
         right: 20px;
         display: flex;
+        flex-wrap: wrap;
         color: white;
         width: 100%;
         justify-content: center;
@@ -972,10 +990,12 @@ hr {
     }
 
     /* -----------------------------------products-------------------- */
-
+    .products{
+        display:flex;
+        flex-wrap: wrap;
+    }
     .products-images {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         gap: 23px 78px;
         text-align: center;
@@ -1023,9 +1043,9 @@ hr {
     /* ---------------------------------tcs scr--------- */
     .TCS-SER {
         display: flex;
-        /* margin: 3rem 2rem; */
-        flex-direction: column;
-        /* column-gap: 5rem; */
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     .tcs-left h1 {
@@ -1042,6 +1062,7 @@ hr {
 
     .tcs-left {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         width: 40rem;
     }
@@ -1087,8 +1108,7 @@ hr {
         top: 8rem;
     }
 
-    /* -----------------------------Ecom solitions------------------- */
-
+    /* ---------------Ecom solitions------------------- */
     hr {
         width: 69px;
         height: 9px;
@@ -1143,18 +1163,20 @@ hr {
     }
 
 
-    /* ------------------------------customer support------ */
+    /* --------customer support------ */
     .customer-service {
+
         display: flex;
-        width: 4rem;
-        padding: 9rem 0rem;
+        flex-wrap: wrap;
+        width: 19rem;
+        /* padding: 15rem 0rem; */
     }
 
     .customer-images {
         position: relative;
         display: flex;
-        margin: 15px 0px;
-        width: 37rem;
+        /* margin: 15px 0px; */
+        width: 70%;
     }
 
     .customer-images img{
@@ -1178,8 +1200,8 @@ hr {
 
     .support4 {
         position: relative;
-        top: 12rem;
-        right: 16rem; 
+        top: 7rem;
+        right: 219px; 
     
     }
 
@@ -1191,9 +1213,11 @@ hr {
 
     .customer-support {
         position: relative;
-        right: 21rem;
-        top: 0rem;
+        left: 17rem;
+        width: 71%;
+        top: -14rem;
     }
+    
     
     .customer-support h1 {
         font-size: 40px;
@@ -1203,13 +1227,15 @@ hr {
     .customer-support p {
         font-size: large;
         text-align: left;
-        padding-bottom: 20px;
     }
     
 
     /* ------------------------------news------------------- */
     .news {
+        position: relative;
+        right: 2rem;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -1227,27 +1253,29 @@ hr {
     }
 
     .news-images img {
-        width: 15rem;
-        height: 10rem;
+        width: 10rem;
+        height: 9rem;
     }
 
 
     /* -------------------------working------------- */
     .working-img {
         display: flex;
+        flex-wrap: wrap;
         column-gap: 3px;
-        margin-top: 15px;
+        /* margin-top: 15px; */
 
     }
 
     .working {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         background-color: #efefef;
         opacity: .9;
-        padding: 5rem 2rem;
+        /* padding: 5rem 2rem; */
 
     }
 
@@ -1257,22 +1285,30 @@ hr {
     }
 
     .working-img img {
-        width: 15rem;
-        height: 12rem;
+        width: 10rem;
+        height: 10rem;
         overflow: hidden;
     }
 
     .working-img h3 {
         position: relative;
-        font-size: 20px;
+        font-size: 17px;
         color: white;
         bottom: 3rem;
         left: 2rem;
+        width: 100%;
     }
 
 }
 
-@media screen and (max-width:425px) {}
+@media screen and (max-width:425px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #c80000;
+        /* padding: 8px 50px; */
+    }
+}
 
 @media screen and (max-width:375px) {}
 
