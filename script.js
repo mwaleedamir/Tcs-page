@@ -68,35 +68,35 @@
 // @param {string} val
 //  @return {Object}
 
-/**
- * @param {string} val
- * @return {Object}
- */
+// /**
+//  * @param {string} val
+//  * @return {Object}
+//  */
 
-var expect = function(x) {
-    let y;
-    function toBe(y){
-        if(x === y){
-            return {"VALUE" : true};
-        }
-        else{
-            return "Not Equal" 
-        }
-    }
-    function notToBe(x){
-        if(x !== y){    
-            return {"VALUE" : true};
-        } 
-        else{
-            return "Equal";
-        }
-    }
-    return{ toBe ,notToBe};
-};
-expect().toBe(7);
-console.log(expect().toBe(7));
-expect(5).notToBe(5);
-console.log(expect(5).notToBe(5));
+// var expect = function(x) {
+//     let y;
+//     function toBe(y){
+//         if(x === y){
+//             return {"VALUE" : true};
+//         }
+//         else{
+//             return "Not Equal" 
+//         }
+//     }
+//     function notToBe(x){
+//         if(x !== y){    
+//             return {"VALUE" : true};
+//         } 
+//         else{
+//             return "Equal";
+//         }
+//     }
+//     return{ toBe ,notToBe};
+// };
+// expect().toBe(7);
+// console.log(expect().toBe(7));
+// expect(5).notToBe(5);
+// console.log(expect(5).notToBe(5));
 
 // function makeAdder(x) {
 //     return function (y) {
@@ -109,3 +109,29 @@ console.log(expect(5).notToBe(5));
   
 //   console.log(add5(2)); // 7
 //   console.log(add10(2)); // 12
+
+const myPromise = new Promise((resolved, reject) => {
+    setTimeout(() => {
+      const result = Math.random();
+      if (result > 0.5) {
+        resolved(result); // Resolve the Promise with the result
+      } else {
+        reject('Error: Result is less than or equal to 0.5'); // Reject the Promise with an error message
+      }
+    }, 6000);
+  });
+
+  const t= ()=>"hello World";
+  document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById("hello").innerHTML= t();
+ }, false);
+
+  // Using then to handle fulfillment and rejection
+  myPromise.then(
+      (reason) => {
+        console.error('Promise rejected with reason:', reason);
+      },
+    (value) => {
+      console.log('Promise fulfilled with value:', value);
+    }
+  );
